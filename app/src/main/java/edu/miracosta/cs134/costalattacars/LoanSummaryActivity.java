@@ -71,8 +71,7 @@ public class LoanSummaryActivity extends AppCompatActivity {
     }
 
     public void returnToEntry(View v) {
-        Intent intent = new Intent(this, MainActivity.class);
-
-        startActivity(intent);
+        // Done with LoanSummaryActivity, so finish it
+        finish();
     }
 }
